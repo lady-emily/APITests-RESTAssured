@@ -1,5 +1,6 @@
 package Update;
 
+import api.base.BaseTests;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.Assert;
@@ -7,7 +8,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class PutRequestTests {
+public class PutRequestTests extends BaseTests {
 
     @Test
     public void testUpdateUser() {

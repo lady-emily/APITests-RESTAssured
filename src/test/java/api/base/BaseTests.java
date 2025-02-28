@@ -10,13 +10,11 @@ import static io.restassured.RestAssured.given;
 @Listeners(AllureTestNg.class)  // Ensure correct package name
 public class BaseTests {
 
-    private static final String BASE_URL = "https://fakestoreapi.com";
+    private static final String BASE_URL = "https://fakestoreapi.com"; //base URL for API
 
     @BeforeClass
     public void setup() {
-        RestAssured.baseURI = BASE_URL;
+        RestAssured.baseURI = BASE_URL; //Initiate URI to be URL
     }
-
-
 
 }
