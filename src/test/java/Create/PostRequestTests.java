@@ -1,12 +1,17 @@
 package Create;
 
 import api.base.BaseTests;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
+
+@Epic("Cart API")
+@Feature("Create Cart")
 
 public class PostRequestTests extends BaseTests {
 
