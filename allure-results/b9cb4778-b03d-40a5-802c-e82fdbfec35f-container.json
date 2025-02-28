@@ -1,0 +1,1 @@
+{"uuid":"b9cb4778-b03d-40a5-802c-e82fdbfec35f","name":"API Test Suite","children":["a6d017e4-ef3f-48bc-a264-cac9d4f53f66"],"befores":[{"name":"setupAllureResultsDirectory","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1740737116797,"stop":1740737116802}],"afters":[],"start":1740737116775,"stop":1740737123325}
