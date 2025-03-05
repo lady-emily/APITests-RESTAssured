@@ -1,0 +1,1 @@
+{"uuid":"39f26f59-48f4-4e84-af56-47261a713d93","name":"DELETE.DeleteRequestTests","children":["3abf411f-b37b-406e-b0e3-72b80b259646"],"befores":[{"name":"setupRestAssured","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1741017888682,"stop":1741017888682}],"afters":[],"start":1741017884126,"stop":1741017889253}
